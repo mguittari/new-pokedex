@@ -4,7 +4,7 @@ function Navbar({ pokemonList, changePokemonOnClick }) {
   const handlePokemonClick = (item) => {
     changePokemonOnClick(item);
     if (pokemonList[item].name === "Pikachu") {
-      alert("Pika pikachu !!!");
+      console.info("Pika pikachu !!!");
     }
   };
   return (
