@@ -35,6 +35,21 @@ const pokemonList = [
     imgSrc:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png",
   },
+  {
+    name: "Squirtle",
+    imgSrc:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png",
+  },
+  {
+    name: "Wartortle",
+    imgSrc:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png",
+  },
+  {
+    name: "Blastoise",
+    imgSrc:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
+  },
 ];
 
 function App() {
@@ -43,15 +58,9 @@ function App() {
   return (
     <div>
       <PokemonCard pokemon={pokemonList[pokemonIndex]} />
-      <Navbar
-        pokemonIndex={pokemonIndex}
-        setPokemonIndex={setPokemonIndex}
-        pokemonList={pokemonList}
-      />
+      <Navbar setPokemonIndex={setPokemonIndex} pokemonList={pokemonList} />
     </div>
   );
 }
 
 export default App;
-
-//   Rendu conditionnel pour les boutons : Ajoute du rendu conditionnel pour n'afficher le bouton "précédent" que si pokemonIndex > 0 (en français : "il y a bien un précédent"), et le bouton "suivant" que si pokemonIndex < pokemonList.length - 1 (en français : "il y a bien un suivant").
