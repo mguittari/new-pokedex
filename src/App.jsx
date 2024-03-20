@@ -2,7 +2,7 @@ import "./App.css";
 import PokemonCard from "./components/PokemonCard";
 import Navbar from "./components/Navbar";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const pokemonList = [
   {
@@ -50,15 +50,35 @@ const pokemonList = [
     imgSrc:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png",
   },
+  {
+    name: "Pikachu",
+    imgSrc:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
+  },
+  {
+    name: "Porygon",
+    imgSrc:
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png",
+  },
 ];
 
 function App() {
   const [pokemonIndex, setPokemonIndex] = useState(0);
+  const changePokemonOnClick = (item) => {
+    setPokemonIndex(item);
+  };
+
+  useEffect(() => {
+    alert("Hello Pokemon trainer, are you ready to gotta catch 'em all ?");
+  }, []);
 
   return (
     <div>
       <PokemonCard pokemon={pokemonList[pokemonIndex]} />
-      <Navbar setPokemonIndex={setPokemonIndex} pokemonList={pokemonList} />
+      <Navbar
+        changePokemonOnClick={changePokemonOnClick}
+        pokemonList={pokemonList}
+      />
     </div>
   );
 }
