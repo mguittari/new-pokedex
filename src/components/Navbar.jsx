@@ -10,7 +10,11 @@ function Navbar({ pokemonList, changePokemonOnClick }) {
   return (
     <div>
       {pokemonList.map((pokemon, item) => (
-        <button key={item} onClick={() => handlePokemonClick(item)}>
+        <button
+          key={item}
+          className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"
+          onClick={() => handlePokemonClick(item)}
+        >
           {pokemon.name}
         </button>
       ))}
