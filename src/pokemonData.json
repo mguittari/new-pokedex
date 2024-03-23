@@ -1,57 +1,87 @@
 [
   {
     "name": "Bulbasaur",
+    "type": "grass",
     "imgSrc":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
   },
   {
     "name": "Ivysaur",
+    "type": "grass",
     "imgSrc":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/2.png"
   },
   {
     "name": "Venusaur",
+    "type": "grass",
     "imgSrc":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/3.png"
   },
   {
     "name": "Charmander",
+    "type": "fire",
     "imgSrc":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png"
   },
   {
     "name": "Charmeleon",
+    "type": "fire",
     "imgSrc":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/5.png"
   },
   {
     "name": "Charizard",
+    "type": "fire",
     "imgSrc":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
   },
   {
     "name": "Squirtle",
+    "type": "water",
     "imgSrc":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png"
   },
   {
     "name": "Wartortle",
+    "type": "water",
     "imgSrc":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/8.png"
   },
   {
     "name": "Blastoise",
+    "type": "water",
     "imgSrc":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/9.png"
   },
   {
+    "name": "Ekans",
+    "type": "poison",
+    "imgSrc":
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/23.png"
+  },
+  {
+    "name": "Arbok",
+    "type": "poison",
+    "imgSrc":
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/24.png"
+  },
+  {
     "name": "Pikachu",
+    "type": "electric",
     "imgSrc":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
   },
   {
+    "name": "Onix",
+    "type": "rock",
+    "imgSrc":
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/95.png"
+  },
+  {
     "name": "Porygon",
+    "type": "normal",
     "imgSrc":
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/137.png"
   }
+  
 ]
